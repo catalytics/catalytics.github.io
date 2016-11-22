@@ -45,7 +45,7 @@ function replaceParaCoord(u1,u2){
     // tooltips
     var tooltip = svgLines.append('text')   
         .style('opacity', 0)
-        .style('font-family', 'Century')
+        .style('font-family', 'Trebuchet MS')
         .style('font-size', '12px')
         .attr("x", 200)
         .attr("y", -10)
@@ -64,7 +64,7 @@ function replaceParaCoord(u1,u2){
         .attr("y",20)
         .text("World Rank")
         .style('opacity', 1)
-        .style('font-family', 'Century')
+        .style('font-family', 'Trebuchet MS')
         .style('font-size', '14px')
 
     // Extra axes
