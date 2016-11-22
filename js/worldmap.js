@@ -31,7 +31,7 @@ function updateMap(u1,u2){
   d3.json("https://gist.githubusercontent.com/d3noob/5193723/raw/6e1434b2c2de24aedde9bcfe35f6a267bd2c04f5/world-110m2.json", function(error, topology) {
     da = topojson.object(topology, topology.objects.countries);
 
-    d3.csv("data/location.csv", function(error, data) {
+    d3.csv("/data/location.csv", function(error, data) {
     //Data handling
 
         //small for-loop to set the read in value to proper types
@@ -158,7 +158,7 @@ console.log("Hi! I am world map!");
   d3.json("https://gist.githubusercontent.com/d3noob/5193723/raw/6e1434b2c2de24aedde9bcfe35f6a267bd2c04f5/world-110m2.json", function(error, topology) {
     da = topojson.object(topology, topology.objects.countries);
 
-    d3.csv("data/location.csv", function(error, data) {
+    d3.csv("/data/location.csv", function(error, data) {
     //Data handling
 
         //small for-loop to set the read in value to proper types
